@@ -1,8 +1,10 @@
 4/15/25:
 
+- Change changelog to txt file
+- Update pseudocode with specifics
 - Create basic pseudocode
 - Add commenting to css file
-- Rename pseudocode to pseudocode.txt
+- Change pseudocode to txt file
 - Rename background-image and image-sidebar
 
 4/14/25:
