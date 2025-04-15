@@ -1,5 +1,12 @@
 /* formsStyle.css */
 
+/* remove margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
 /* yakuza font */
 @font-face {
     font-family: 'edoregular';
@@ -11,9 +18,65 @@
          url('font/edo-webfont.svg#edoregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-/* testing font styling */
+.sidebar {
+    display: flex;
+    min-width: 500px;
+}
 
-h1 { font-family: 'edoregular'; }
+.sideImg {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(images/background-image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 500px;
+    height: 100vh;
+    inline-size: min-content;
+}
+
+.logo {
+    height: 6vh;
+}
+
+.header {
+    background: rgba(0,0,0,.5);
+    padding: 5px;
+    backdrop-filter: blur(4px);
+    position: relative;
+    top: 15%;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'edoregular';
+    font-size: 4vw;
+    padding: 5px;
+  }
+
+/* credit text and link styling */
+.credits {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.credits a {
+    color: white;
+}
+.credits a:visited {
+    color: white;
+}
+.credits a:hover {
+    color: red; /* change color when palette is selected */
+}
