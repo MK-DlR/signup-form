@@ -1,0 +1,12 @@
+notes for landing page edits:
+- use whatever palette is chosen for sign-up form page
+- adjust header fonts to Edo SZ
+
+PROJECT
+1. gather assets
+    a. select large background-image
+    b. pick external font for logo section (Edo SZ)
+    c. select image-sidebar
+Done
+
+2. 
