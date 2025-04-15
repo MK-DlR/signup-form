@@ -9,9 +9,11 @@ Done
     a. background-image on left
         a1. takes up approximately 1/3 of page
         a2. credits in bottom center of image
+    Done
     b. logo image and text in div on left
         b1. over background-image
         b2. with dark but semi-transparent background color
+    Done
     c. sign up form on center right
         c1. with header text
         c2. and different input fields
