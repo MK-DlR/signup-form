@@ -1,7 +1,3 @@
-notes for landing page edits:
-- use whatever palette is chosen for sign-up form page
-- adjust header fonts to Edo SZ
-
 PROJECT
 1. gather assets
     a. select large background-image
@@ -48,8 +44,23 @@ Done
 
 4. validate each field
     a. first name
+        a1. only letters
+        a2. with minimum requirement
     b. last name
+        b1. only letters
+        b2. with minimum requirement
     c. email
+        c1. @ domain validation
+        c2. with minimum requirement
     d. phone number
+        d1. only numbers
+        d2. in phone number format
+        d3. with minimum requirement
     e. password 
         e1. validate separately - don't use JS
+    f. confirm password
+        f1. validate separately - don't use JS
+
+5. edit landing page project to match
+    a. Edo SZ font
+    b. palette
