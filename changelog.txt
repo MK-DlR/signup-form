@@ -1,5 +1,14 @@
 4/15/25:
 
+- Add font family for credit text
+- Add logo to left of header text with responsive resizing
+- Add responsive resizing to image and text based on screen/window size
+- Add dark background with opacity behind header text
+- Turn credits and header text white
+- Center align credits text
+- Create header and credits text within sideImg div
+- Create sidebar div
+- Create sideImg div and add background-image
 - Change changelog to txt file
 - Update pseudocode with specifics
 - Create basic pseudocode
