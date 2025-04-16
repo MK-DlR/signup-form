@@ -1,5 +1,10 @@
 4/16/25:
 
+- Add borders to inputs including red for invalid 
+- Add form input validations for first name, last name, email, phone number, and passwords
+- Adjust sidebar header box and text positioning
+- Change sidebar image
+- Move form and top text placement and positioning
 - Add box shadow to focused input and Create Account button
 - Change Create Account to normal button type and add styling
 - Reorganize pseudocode steps
