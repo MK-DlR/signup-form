@@ -1,4 +1,7 @@
 PROJECT
+
+note: find new font for credits and/or form labels?
+
 1. gather assets
     a. select large background-image
     b. pick external font for logo section (Edo SZ)
@@ -23,16 +26,20 @@ Done
             - phone number
             - password
             - confirm password
+    Wip
     d. section of text on top right
         d1. with information about sign up
         d2. on same section of page as create account and log in (e)
+    Wip
     e. "create account" and "log in" on bottom right
         e1. on same section of page as top text (d)
         e2. left aligned underneath sign up form
+    Wip
 
 3. choose and apply color palette
     a. "create account" button color similar to tones found in background image
         a1. same color as "log in" link
+        a2. box shadow
     b. inputs should have border
         b1. default very light
         b2. with two variations
