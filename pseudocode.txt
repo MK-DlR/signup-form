@@ -1,6 +1,6 @@
 PROJECT
 
-note: find new font for credits and/or form labels?
+note: find new font/s for credits, flavour text, form labels, and button
 
 1. gather assets
     a. select large background-image
@@ -27,33 +27,18 @@ Done
             - password
             - confirm password
         c3. and box shadow
-    Wip
+    Done
     d. section of text on top right
         d1. with information about sign up
         d2. on same section of page as create account and log in (e)
-    Wip
+    Done
     e. "create account" and "log in" on bottom right
         e1. on same section of page as top text (d)
         e2. left aligned underneath sign up form
         e3. large button for create account
-    Wip
+    Done
 
-3. choose and apply color palette
-    a. "create account" button color similar to tones found in background image
-        a1. same color as "log in" link
-        a2. and box shadow
-    b. inputs should have border
-        b1. default very light
-        b2. with two variations
-            - password inputs should have red border if invalid password
-                - can be handled with :invalid pseudo-class
-            - selected input should have blue border
-                - and subtle box-shadow
-                    - can be handled with :focus pseudo-class
-    c. sign up form on lightest color background
-    d. top text and create account/log in on slightly darker background
-
-4. validate each field
+3. validate each field
     a. first name
         a1. only letters
         a2. with minimum requirement
@@ -72,6 +57,23 @@ Done
     f. confirm password
         f1. validate separately - don't use JS
 
-5. edit landing page project to match
-    a. Edo SZ font
+4. choose and apply color palette
+    a. "create account" button color similar to tones found in background image
+        a1. same color as "log in" link
+        a2. and box shadow
+    b. inputs should have border
+        b1. default very light
+        b2. with two variations
+            - password inputs should have red border if invalid password
+                - can be handled with :invalid pseudo-class
+            - selected input should have blue border
+                - and subtle box-shadow
+                    - can be handled with :focus pseudo-class
+    c. sign up form on lightest color background
+    d. top text and create account/log in on slightly darker background
+
+5. change placeholder filler text to real text
+
+6. edit landing page project to match
+    a. Edo SZ font (+ other font/s)
     b. palette
