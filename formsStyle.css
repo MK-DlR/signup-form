@@ -27,10 +27,14 @@
 
 .main-content {
     width: 100%;
+    margin-top: 10vh;
 }
 
 .top-text {
-    margin-left: 3vw;
+    position: fixed;
+    left: 50px;
+    margin-left: 28vw;
+    top: 50px;
     max-width: 29vw;
     margin-bottom: 3vh;
 }
@@ -38,13 +42,16 @@
 .form-wrapper {
     background: blue; /* change color when palette is selected */
     width: 100%;
+    position: fixed;
+    top: 20vh;
     padding: 20px 0;
-    padding-bottom: 3vh;
-    margin-bottom: 2vh;
+    height: 40vh;
 }
 
 .form {
-    margin-left: 3vw;
+    position: relative;
+    left: 50px;
+    margin-left: 28vw;
     max-width: 29vw;
 }
 
@@ -52,7 +59,7 @@ ul#cols {
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
-    row-gap: 16px;
+    row-gap: 36px;
     list-style: none;
     padding: 0;
 }
@@ -66,21 +73,39 @@ ul#cols li {
 
 ul#cols input {
     width: 12vw;
-    padding: 10px;
+    padding: 0px;
     height: 3vh;
 }
 
+input {
+    border-style: solid;
+    border-width: thin;
+    border-color: #E5E7EB;
+}
+
 input:focus {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightblue;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
+input:invalid {
+    border-style: solid;
+    border-width: thin;
+    border-color: red;
+}
+
 .lets-go {
+    padding-top: 3vh;
     padding-bottom: 3vh;
 }
 
 .btm-text {
-    padding-top: 20px;
-    margin-left: 3vw;
+    padding-top: 2vh;
+    position: relative;
+    left: 50px;
+    margin-left: 28vw;
 }
 
 label {
@@ -116,13 +141,14 @@ label {
     position: relative;
     text-align: center;
     color: white;
-    background-image: url(images/background-image.png);
+    background-image: url(images/kiwami.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
     width: 500px;
     height: 100vh;
     inline-size: min-content;
+    z-index: 1;
 }
 
 /* logo beside text */
@@ -139,7 +165,7 @@ label {
     padding: 5px;
     backdrop-filter: blur(4px);
     position: relative;
-    top: 15%;
+    top: 20vh;
     overflow: hidden;
     width: 100%;
 }
