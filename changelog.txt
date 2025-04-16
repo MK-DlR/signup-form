@@ -1,5 +1,11 @@
 4/16/25:
 
+- Add box shadow to focused input and Create Account button
+- Change Create Account to normal button type and add styling
+- Reorganize pseudocode steps
+- Style form label text
+- Remove padding from lets-go to fix formatting
+- Fix form overflowing wrapper by changing set height to padding
 - Change form width sizing to vw
 - Remove sidebar width
 - Add colored background to form

@@ -20,6 +20,7 @@
     font-style: normal;
 }
 
+/* main content */
 .content {
     display: flex;
 }
@@ -29,19 +30,21 @@
 }
 
 .top-text {
-    margin-left: 5vw;
+    margin-left: 3vw;
     max-width: 29vw;
-    margin-bottom: 15px;
+    margin-bottom: 3vh;
 }
 
 .form-wrapper {
-    background: blue;
+    background: blue; /* change color when palette is selected */
     width: 100%;
-    height: 30vh;
+    padding: 20px 0;
+    padding-bottom: 3vh;
+    margin-bottom: 2vh;
 }
 
 .form {
-    margin-left: 5vw;
+    margin-left: 3vw;
     max-width: 29vw;
 }
 
@@ -54,6 +57,7 @@ ul#cols {
     padding: 0;
 }
 
+/* displaying form as columns */
 ul#cols li {
     flex: 1 1 calc(50% - 5px);
     display: flex;
@@ -61,22 +65,44 @@ ul#cols li {
 }
 
 ul#cols input {
-    width: 100%;
+    width: 12vw;
     padding: 10px;
+    height: 3vh;
+}
+
+input:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 .lets-go {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 3vh;
 }
 
 .btm-text {
-    padding-top: 15px;
-    margin-left: 5vw;
+    padding-top: 20px;
+    margin-left: 3vw;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    }
+
+.button {
+    padding: 12px 50px;
+    border-radius: 8px;
+    border: 0;
+    background-color: green; /* change color when palette is selected */
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 .have-account {
-    padding-top: 15px;
+    padding-top: 4vh;
 }
 
 .have-account a {
