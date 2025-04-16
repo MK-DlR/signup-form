@@ -1,5 +1,9 @@
 4/16/25:
 
+- Add colored background to form
+- Move form to beside side image with uniform padding for form and text
+- Add placeholder text
+- Turn form inputs into 2 columns with label above text input
 - Add basic create account button
 - Create basic form inputs
 - Create content div to contain all divs
