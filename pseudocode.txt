@@ -26,6 +26,7 @@ Done
             - phone number
             - password
             - confirm password
+        c3. and box shadow
     Wip
     d. section of text on top right
         d1. with information about sign up
@@ -39,7 +40,7 @@ Done
 3. choose and apply color palette
     a. "create account" button color similar to tones found in background image
         a1. same color as "log in" link
-        a2. box shadow
+        a2. and box shadow
     b. inputs should have border
         b1. default very light
         b2. with two variations
