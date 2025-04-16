@@ -35,6 +35,7 @@ Done
     e. "create account" and "log in" on bottom right
         e1. on same section of page as top text (d)
         e2. left aligned underneath sign up form
+        e3. large button for create account
     Wip
 
 3. choose and apply color palette
