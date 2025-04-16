@@ -7,10 +7,51 @@
     <title>Majima Everywhere</title>
 </head>
 <body>
-    <div class="sidebar">
-        <div class="sideImg">
-                <div class="header"><img class="logo" src="images/crest.png"><h1>Everywhere</h1></div>
-                <div class="credits">Screenshot by <a href="https://github.com/milkteapuppy">Milkteapuppy</a> from <a href="https://store.steampowered.com/app/1805480/Like_a_Dragon_Ishin/">Like A Dragon: Ishin</a></div>
+    <div class="content">
+        <div class="sidebar">
+            <div class="side-img">
+                    <div class="header"><img class="logo" src="images/crest.png"><h1>Everywhere</h1></div>
+                    <div class="credits">Screenshot by <a href="https://github.com/milkteapuppy">Milkteapuppy</a> from <a href="https://store.steampowered.com/app/1805480/Like_a_Dragon_Ishin/">Like A Dragon: Ishin</a></div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="top-text">Filler text goes here.</div>
+            <div class="form">
+                <form id="signupform" class="signup-form">
+                    <div class="signup-form-name">
+                        <label for="first-name">First Name</label>
+                        <input id="first-name" placeholder="First Name *" name="first-name" type="text" required>
+                    </div>
+                    <div class="signup-form-surname">
+                        <label for="surname">Last Name</label>
+                        <input id="surname" placeholder="Last Name *" name="surname" type="text" required>
+                    </div>
+                    <div class="signup-form-email">
+                        <label for="email">Email</label>
+                        <input id="email" placeholder="Email *" name="email" type="email" required>
+                    </div>
+                    <div class="signup-form-phone">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" placeholder="Phone Number" name="phone" type="tel">
+                    </div>
+                    <div class="signup-form-pass">
+                        <label for="pass">Password</label>
+                        <input id="pass" placeholder="Password *" name="pass" type="password" required>
+                    </div>
+                    <div class="signup-form-pass-confirm">
+                        <label for="pass-confirm">Confirm Password</label>
+                        <input id="pass-confirm" placeholder="Confirm Password *" name="pass-confirm" type="password" required>
+                    </div>
+                </form>
+            </div>
+            <div class="btm-text">
+                <div class="create-account">
+                    <input name="create-account" type="submit" id="create-account" class="create-account" value="Create Account">
+                </div>
+                <div class="have-account">
+                    Already have an account? <a href="">Log in</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
