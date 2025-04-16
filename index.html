@@ -10,45 +10,49 @@
     <div class="content">
         <div class="sidebar">
             <div class="side-img">
-                    <div class="header"><img class="logo" src="images/crest.png"><h1>Everywhere</h1></div>
-                    <div class="credits">Screenshot by <a href="https://github.com/milkteapuppy">Milkteapuppy</a> from <a href="https://store.steampowered.com/app/1805480/Like_a_Dragon_Ishin/">Like A Dragon: Ishin</a></div>
+                    <div class="header">
+                        <img class="logo" src="images/crest.png">
+                        <h1>Everywhere</h1>
+                    </div>
+                    <div class="credits">Screenshot by <a href="https://github.com/milkteapuppy">Milkteapuppy</a> from <a href="https://store.steampowered.com/app/927380/Yakuza_Kiwami_2/">Yakuza Kiwami 2</a></div>
             </div>
         </div>
-        <div class="main-content">
-            <div class="top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat lectus turpis. Donec nisi massa, congue id nibh in, euismod vehicula purus.</div>
-            <div class="form-wrapper">
-                <div class="form">
-                <div class="lets-go">Ikuze!</div>
-                    <form id="signup-form" class="signup-form">
-                        <ul id="cols">
-                            <li class="nav-li">
-                                <label for="first-name">First Name</label>
-                                <input id="first-name" placeholder="First Name *" name="first-name" type="text" required/>
-                            </li>
-                            <li class="nav-li">
-                                <label for="surname">Last Name</label>
-                                <input id="surname" placeholder="Last Name *" name="surname" type="text" required />
-                            </li>
-                            <li class="nav-li">
-                                <label for="email">Email</label>
-                                <input id="email" placeholder="Email *" name="email" type="email" required />
-                            </li>
-                            <li class="nav-li">
-                                <label for="phone">Phone Number</label>
-                                <input id="phone" placeholder="Phone Number" name="phone" type="tel" />
-                            </li>
-                            <li class="nav-li">
-                                <label for="pass">Password</label>
-                                    <input id="pass" placeholder="Password *" name="pass" type="password" required />
-                            </li>
-                            <li class="nav-li">
-                                <label for="pass-confirm">Confirm Password</label>
-                                    <input id="pass-confirm" placeholder="Confirm Password *" name="pass-confirm" type="password" required />
-                            </li>
-                        </ul>
-                    </form>
-                </div>
+        <div class="top-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat lectus turpis. Donec nisi massa, congue id nibh in, euismod vehicula purus.            </div>
+        </div>
+        <div class="form-wrapper">
+            <div class="form">
+            <div class="lets-go">Ikuze!</div>
+                <form id="signup-form" class="signup-form">
+                    <ul id="cols">
+                        <li class="nav-li">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" placeholder="First Name" name="first-name" type="text" minlength="2" pattern="[A-Za-z]+" />
+                        </li>
+                        <li class="nav-li">
+                            <label for="surname">Last Name</label>
+                            <input id="surname" placeholder="Last Name" name="surname" type="text" minlength="2" pattern="[A-Za-z]+" />
+                        </li>
+                        <li class="nav-li">
+                            <label for="email">Email</label>
+                            <input id="email" placeholder="Email" name="email" type="email" minlength="1" pattern="[A-Za-z0-9]+@\w+\.\w{2,3}(\.\w{2,3})?" />
+                        </li>
+                        <li class="nav-li">
+                            <label for="phone">Phone Number</label>
+                            <input id="phone" placeholder="123-456-7890" name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                        </li>
+                        <li class="nav-li">
+                            <label for="pass">Password</label>
+                                <input id="pass" placeholder="Password *" name="pass" type="password" pattern="[A-Za-z0-9#$%&@]+" required />
+                        </li>
+                        <li class="nav-li">
+                            <label for="pass-confirm">Confirm Password</label>
+                                <input id="pass-confirm" placeholder="Confirm Password *" name="pass-confirm" type="password" pattern="[A-Za-z0-9#$%&@]+" required />
+                        </li>
+                    </ul>
+                </form>
             </div>
+        <div class="main-content">
             <div class="btm-text">
                 <div class="create-account">
                     <a href="#" class="button">Create Account</a>
