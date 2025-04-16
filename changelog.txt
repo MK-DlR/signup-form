@@ -1,3 +1,14 @@
+4/16/25:
+
+- Add basic create account button
+- Create basic form inputs
+- Create content div to contain all divs
+- Create top-text and btm-text divs
+- Create signup-form as form element
+- Change sideImg to side-img
+- Create main-content and form divs
+- Add commenting to css
+
 4/15/25:
 
 - Add font family for credit text
