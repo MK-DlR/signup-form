@@ -20,12 +20,55 @@
     font-style: normal;
 }
 
+/*
+.content {
+    display: flex;
+}
+*/
+
+/* right side content
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+
+/*
+.top-text {
+    position: absolute;
+    top: 20%;
+}
+*/
+
+/*
+.form {
+    position: absolute;
+    top: 33%
+}
+*/
+
+/*
+.btm-text {
+    position: absolute;
+    bottom: 20%;
+}
+*/
+
+.have-account a {
+    color: red; /* change color when palette is selected */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* left sidebar content with image and text */
 .sidebar {
     display: flex;
     min-width: 500px;
 }
 
-.sideImg {
+/* responsive side image */
+.side-img {
     position: relative;
     text-align: center;
     color: white;
@@ -38,11 +81,16 @@
     inline-size: min-content;
 }
 
+/* logo beside text */
 .logo {
     height: 6vh;
 }
 
+/* main text over image with blurred background */
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: rgba(0,0,0,.5);
     padding: 5px;
     backdrop-filter: blur(4px);
@@ -50,11 +98,9 @@
     top: 15%;
     overflow: hidden;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
+/* main text */
 h1 {
     color: white;
     font-family: 'edoregular';
