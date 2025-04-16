@@ -1,5 +1,7 @@
 4/16/25:
 
+- Change form width sizing to vw
+- Remove sidebar width
 - Add colored background to form
 - Move form to beside side image with uniform padding for form and text
 - Add placeholder text

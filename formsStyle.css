@@ -29,7 +29,7 @@
 }
 
 .top-text {
-    margin-left: 50px;
+    margin-left: 5vw;
     max-width: 29vw;
     margin-bottom: 15px;
 }
@@ -41,7 +41,7 @@
 }
 
 .form {
-    margin-left: 50px;
+    margin-left: 5vw;
     max-width: 29vw;
 }
 
@@ -72,7 +72,7 @@ ul#cols input {
 
 .btm-text {
     padding-top: 15px;
-    margin-left: 50px;
+    margin-left: 5vw;
 }
 
 .have-account {
@@ -83,11 +83,6 @@ ul#cols input {
     color: red; /* change color when palette is selected */
     font-weight: bold;
     text-decoration: none;
-}
-
-/* left sidebar content with image and text */
-.sidebar {
-    min-width: 500px;
 }
 
 /* responsive side image */
