@@ -2,7 +2,7 @@
 
 TOP sign-up form project
 
-live preview: https://milkteapuppy.github.io/signup-form/ (wip)
+live preview: https://milkteapuppy.github.io/signup-form/
 
 use html and css to create a sign up form based upon given specifications
 (an image provided by TOP)
