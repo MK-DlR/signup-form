@@ -7,22 +7,33 @@
     box-sizing: border-box;
    }
 
-/* yakuza font */
+/* fonts */
 @font-face {
     font-family: 'edoregular';
-    src: url('font/edo-webfont.eot');
-    src: url('font/edo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/edo-webfont.woff2') format('woff2'),
-         url('font/edo-webfont.woff') format('woff'),
-         url('font/edo-webfont.ttf') format('truetype'),
-         url('font/edo-webfont.svg#edoregular') format('svg');
+    src: url('fonts/font1/edo-webfont.eot');
+    src: url('fonts/font1/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/font1/edo-webfont.woff2') format('woff2'),
+         url('fonts/font1/edo-webfont.woff') format('woff'),
+         url('fonts/font1/edo-webfont.ttf') format('truetype'),
+         url('fonts/font1/edo-webfont.svg#edoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'meta_procond_regular';
+    src: url('fonts/font2/ffmetaprocondrg-webfont.woff2') format('woff2'),
+         url('fonts/font2/ffmetaprocondrg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /* main content */
 .content {
     display: flex;
+    background: #f9fafb;
 }
 
 .main-content {
@@ -37,10 +48,13 @@
     top: 50px;
     max-width: 29vw;
     margin-bottom: 3vh;
+    font-family: 'meta_procond_regular';
+    font-size: 1vw;
 }
 
+/* form and styling */
 .form-wrapper {
-    background: blue; /* change color when palette is selected */
+    background: #ffffff; /* change color when palette is selected */
     width: 100%;
     position: fixed;
     top: 20vh;
@@ -53,8 +67,11 @@
     left: 50px;
     margin-left: 28vw;
     max-width: 29vw;
+    font-family: 'meta_procond_regular';
+    font-size: 1vw;
 }
 
+/* displaying form as columns */
 ul#cols {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +81,6 @@ ul#cols {
     padding: 0;
 }
 
-/* displaying form as columns */
 ul#cols li {
     flex: 1 1 calc(50% - 5px);
     display: flex;
@@ -73,10 +89,11 @@ ul#cols li {
 
 ul#cols input {
     width: 12vw;
-    padding: 0px;
+    padding: 0 0 0 10px; 
     height: 3vh;
 }
 
+/* input styling */
 input {
     border-style: solid;
     border-width: thin;
@@ -96,8 +113,9 @@ input:invalid {
     border-color: red;
 }
 
+/* bottom text and button */
 .lets-go {
-    padding-top: 3vh;
+    padding-top: 2vh;
     padding-bottom: 3vh;
 }
 
@@ -106,6 +124,8 @@ input:invalid {
     position: relative;
     left: 50px;
     margin-left: 28vw;
+    font-family: 'meta_procond_regular';
+    font-size: 1vw;
 }
 
 label {
@@ -118,7 +138,7 @@ label {
     padding: 12px 50px;
     border-radius: 8px;
     border: 0;
-    background-color: green; /* change color when palette is selected */
+    background-color: #b99c71;
     font-weight: bold;
     font-size: 13px;
     text-decoration: none;
@@ -131,7 +151,7 @@ label {
 }
 
 .have-account a {
-    color: red; /* change color when palette is selected */
+    color: #b99c71;
     font-weight: bold;
     text-decoration: none;
 }
