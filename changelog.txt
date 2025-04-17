@@ -1,3 +1,13 @@
+4/17/25:
+
+- Change placeholder input text
+- Add padding to left side of input box
+- Add top flavor text
+- Add link to log in
+- Add main content font type
+- Adjust content and form wrapper backgrounds
+- Add css commenting
+
 4/16/25:
 
 - Add borders to inputs including red for invalid 
