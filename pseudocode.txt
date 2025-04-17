@@ -1,7 +1,4 @@
 PROJECT
-
-note: find new font/s for credits, flavour text, form labels, and button
-
 1. gather assets
     a. select large background-image
     b. pick external font for logo section (Edo SZ)
@@ -67,9 +64,12 @@ Done
                     - can be handled with :focus pseudo-class
     c. sign up form on lightest color background
     d. top text and create account/log in on slightly darker background
+Done
 
 5. change placeholder filler text to real text
+Done
 
 6. edit landing page project to match
     a. Edo SZ font (+ other font/s)
     b. palette
+Done
